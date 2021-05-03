@@ -1,5 +1,5 @@
 class Atm:
-    def __init__(self):
+    def __init__(self,card_no,pin_no):
         self.balance = 0
         print("The account is created")
         
@@ -18,6 +18,6 @@ class Atm:
         else:
             print("Insuffient Balance!!")
         
-acc = Atm()
+acc = Atm(card_no,pin_no)
 acc.deposit()
 acc.withdraw()
