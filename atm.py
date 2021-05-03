@@ -18,6 +18,6 @@ class Atm:
         else:
             print("Insuffient Balance!!")
         
-acc = Atm(card_no,pin_no)
+acc = Atm('124','567')
 acc.deposit()
 acc.withdraw()
